@@ -27,7 +27,7 @@ FText UAdditionalFunctionLibrary::GetActionPrimaryKeyName(FName ActionName)
 		if (ActionMappings.IsValidIndex(0))
 		{
 			return ActionMappings[0].Key.GetDisplayName();
-		}		
-	}	
+		}
+	}
 	return FText::FromString(TEXT("Not set"));
 }
